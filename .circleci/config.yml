@@ -6,7 +6,6 @@ jobs:
     - image: circleci/postgres:9.6-alpine
       environment: # environment variables for primary container
         POSTGRES_USER: postgres
-    working_directory: /home/circleci
     steps:
     - checkout
     - run:
