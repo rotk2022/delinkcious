@@ -221,8 +221,8 @@ github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXf
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/the-gigi/delinkcious v0.0.0-20220103094143-701d7f6061e1 h1:V1q2i2jugcFDvEZSn+InZdHMGrkTk5tKS02T5Tz/EA0=
-github.com/the-gigi/delinkcious v0.0.0-20220103094143-701d7f6061e1/go.mod h1:kpqeByJZ8A+IXjeHd7LZhWJUvs8vMf/qNV1tzFAc7us=
+github.com/rotk2022/delinkcious v0.0.0-20220103094143-701d7f6061e1 h1:V1q2i2jugcFDvEZSn+InZdHMGrkTk5tKS02T5Tz/EA0=
+github.com/rotk2022/delinkcious v0.0.0-20220103094143-701d7f6061e1/go.mod h1:kpqeByJZ8A+IXjeHd7LZhWJUvs8vMf/qNV1tzFAc7us=
 github.com/uber/jaeger-client-go v2.30.0+incompatible h1:D6wyKGCecFaSRUpo8lCVbaOOb6ThwMmTEbhRwtKR97o=
 github.com/uber/jaeger-client-go v2.30.0+incompatible/go.mod h1:WVhlPFC8FDjOFMMWRy2pZqQJSXxYSwNYOkTr/Z6d3Kk=
 github.com/uber/jaeger-lib v2.4.1+incompatible h1:td4jdvLcExb4cBISKIpHuGoVXh+dVKhn2Um6rjCsSsg=

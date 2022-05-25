@@ -2,7 +2,8 @@ package news_manager
 
 import (
 	"errors"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 const inMemoryMaxPageSize = 10

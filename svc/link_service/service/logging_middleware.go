@@ -1,9 +1,10 @@
 package service
 
 import (
-	"github.com/go-kit/kit/log"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
 	"time"
+
+	"github.com/go-kit/kit/log"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 // implement function to return ServiceMiddleware

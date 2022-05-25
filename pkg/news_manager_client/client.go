@@ -2,8 +2,8 @@ package news_manager_client
 
 import (
 	grpctransport "github.com/go-kit/kit/transport/grpc"
-	"github.com/the-gigi/delinkcious/pb/news_service/pb"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	"github.com/rotk2022/delinkcious/pb/news_service/pb"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 	"google.golang.org/grpc"
 )
 

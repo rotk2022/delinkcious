@@ -4,8 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
-	. "github.com/the-gigi/delinkcious/pkg/test_util"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -14,6 +12,9 @@ import (
 	"os/exec"
 	"strings"
 	"time"
+
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
+	. "github.com/rotk2022/delinkcious/pkg/test_util"
 )
 
 var (
@@ -71,7 +72,6 @@ func getFollowing() {
 	log.Println("======= Following =======")
 	log.Println(string(body))
 }
-
 
 func addLink(url string, title string) {
 	params := net_url.Values{}
@@ -154,7 +154,6 @@ func main() {
 	//	tempUrl = []byte("http://localhost:5000/")
 	//}
 
-
 	delinkciousUrl = string(tempUrl[:len(tempUrl)-1]) + "/v1"
 	if !strings.HasPrefix(delinkciousUrl, "http") {
 		delinkciousUrl = "http://" + delinkciousUrl[1:]
@@ -166,13 +165,13 @@ func main() {
 	getFollowing()
 
 	// Delete link
-	deleteLink("https://github.com/the-gigi")
+	deleteLink("https://github.com/rotk2022")
 
 	// Get links
 	getLinks()
 
 	// Add a new link
-	addLink("https://github.com/the-gigi", "Gigi on Github")
+	addLink("https://github.com/rotk2022", "Gigi on Github")
 
 	// Get links again
 	getLinks()

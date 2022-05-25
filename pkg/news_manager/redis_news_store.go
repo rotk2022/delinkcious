@@ -3,7 +3,7 @@ package news_manager
 import (
 	"github.com/go-redis/redis"
 	"github.com/pelletier/go-toml"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 const redisMaxPageSize = 10

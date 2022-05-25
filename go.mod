@@ -1,4 +1,4 @@
-module github.com/the-gigi/delinkcious
+module github.com/rotk2022/delinkcious
 
 go 1.17
 

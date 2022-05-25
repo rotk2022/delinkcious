@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/go-kit/kit/endpoint"
-	"github.com/the-gigi/delinkcious/pkg/auth_util"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
 	"net/http"
 	"net/url"
 	"os"
 	"strings"
+
+	"github.com/go-kit/kit/endpoint"
+	"github.com/rotk2022/delinkcious/pkg/auth_util"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 type followRequest struct {
@@ -135,7 +136,6 @@ func makeUnfollowEndpoint(svc om.SocialGraphManager) endpoint.Endpoint {
 //		}
 //	}()
 //}
-
 
 func makeGetFollowingEndpoint(svc om.SocialGraphManager) endpoint.Endpoint {
 	return func(_ context.Context, request interface{}) (interface{}, error) {

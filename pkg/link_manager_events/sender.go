@@ -1,10 +1,11 @@
 package link_manager_events
 
 import (
-	"github.com/nats-io/nats.go"
 	"log"
 
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	"github.com/nats-io/nats.go"
+
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 type eventSender struct {

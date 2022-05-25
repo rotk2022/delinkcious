@@ -3,12 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
-	lme "github.com/the-gigi/delinkcious/pkg/link_manager_events"
-	nmc "github.com/the-gigi/delinkcious/pkg/news_manager_client"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
-	. "github.com/the-gigi/delinkcious/pkg/test_util"
 	"os"
 	"time"
+
+	lme "github.com/rotk2022/delinkcious/pkg/link_manager_events"
+	nmc "github.com/rotk2022/delinkcious/pkg/news_manager_client"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
+	. "github.com/rotk2022/delinkcious/pkg/test_util"
 )
 
 func runNewsService(ctx context.Context) {

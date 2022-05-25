@@ -3,9 +3,10 @@ package link_manager
 import (
 	"errors"
 	"fmt"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
 	"regexp"
 	"time"
+
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 // User links are a map of url:TaggedLink

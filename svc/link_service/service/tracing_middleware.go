@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/opentracing/opentracing-go"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 // implement function to return ServiceMiddleware

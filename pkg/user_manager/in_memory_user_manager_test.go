@@ -3,7 +3,7 @@ package user_manager
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/rotk2022/delinkcious/pkg/object_model"
 )
 
 var _ = Describe("user manager tests", func() {

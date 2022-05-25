@@ -282,7 +282,7 @@ def deploy_delinkcious_services():
     project = 'default'
     ns = 'default'
     description = 'Delicious-like link management system'
-    repo = 'https://github.com/the-gigi/delinkcious'
+    repo = 'https://github.com/rotk2022/delinkcious'
     # create_project(project, 'https://kubernetes.default.svc', ns, '', repo)
     apps = 'link social-graph user news api-gateway'.split()
     #apps = ['api-gateway']

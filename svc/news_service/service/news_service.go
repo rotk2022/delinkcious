@@ -2,12 +2,13 @@ package service
 
 import (
 	"fmt"
-	"github.com/the-gigi/delinkcious/pb/news_service/pb"
-	nm "github.com/the-gigi/delinkcious/pkg/news_manager"
-	"google.golang.org/grpc"
 	"log"
 	"net"
 	"os"
+
+	"github.com/rotk2022/delinkcious/pb/news_service/pb"
+	nm "github.com/rotk2022/delinkcious/pkg/news_manager"
+	"google.golang.org/grpc"
 )
 
 func Run() {
