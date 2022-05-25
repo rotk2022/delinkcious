@@ -10,7 +10,7 @@ jobs:
     - checkout
     - run:
         name: Update certificates
-        command: apt-get --allow-releaseinfo-change update && apt upgrade -y
+        command: sudo apt-get --allow-releaseinfo-change update && sudo apt upgrade -y
     - run:
         name: Get all dependencies
         command: |
