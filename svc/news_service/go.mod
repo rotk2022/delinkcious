@@ -1,12 +1,13 @@
-module github.com/rotk2022/delinkcious/svc/news_service
+module news_service
 
-go 1.17
+go 1.18
 
 require (
 	github.com/go-kit/kit v0.12.0
 	github.com/golang/protobuf v1.5.2
-	github.com/rotk2022/delinkcious v0.0.0-20220103094143-701d7f6061e1
-	google.golang.org/grpc v1.43.0
+	github.com/rotk2022/delinkcious v0.0.0-20220525025634-eff872b79d2d
+	github.com/rotk2022/delinkcious/svc/news_service v0.0.0-20220525025634-eff872b79d2d
+	google.golang.org/grpc v1.46.2
 )
 
 require (

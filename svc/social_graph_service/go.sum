@@ -24,12 +24,15 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rotk2022/delinkcious v0.0.0-20220525025634-eff872b79d2d h1:sfk8TWlaOZRW+rOLtTOQlntD7idVztjGl2+omoEmC44=
 github.com/rotk2022/delinkcious v0.0.0-20220525025634-eff872b79d2d/go.mod h1:zhb4MkZku1gC/1c+KxbquaNtn1ZIbamHe+EQdwUAJVM=
-github.com/rotk2022/delinkcious/svc/user_service v0.0.0-20220525025634-eff872b79d2d h1:48NQf4rHcpx4jvYLJRd+KOMZ29IEYRgrc3T1YMmvRDY=
-github.com/rotk2022/delinkcious/svc/user_service v0.0.0-20220525025634-eff872b79d2d/go.mod h1:DHn6jVJkj/YbU1qf2ejnZ8YiaPqJIDYyTZeFRkTReNw=
+github.com/rotk2022/delinkcious/svc/social_graph_service v0.0.0-20220525025634-eff872b79d2d h1:qsjevL2H6os7GHukfp8/Mtb2JyM2rkE4deB3xDGa7ic=
+github.com/rotk2022/delinkcious/svc/social_graph_service v0.0.0-20220525025634-eff872b79d2d/go.mod h1:IoGs24HVPnqke56PWshbCci9b+ZCPOVcxF3jUd63X5Y=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/net v0.0.0-20211216030914-fe4d6282115f h1:hEYJvxw1lSnWIl8X9ofsYMklzaDs90JI2az5YMd4fPM=
 golang.org/x/sys v0.0.0-20210917161153-d61c044b1678 h1:J27LZFQBFoihqXoegpscI10HpjZ7B5WQLLKL2FZXQKw=
 golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 h1:uRGJdciOHaEIrze2W8Q3AKkepLTh2hOroT7a+7czfdQ=
 gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=

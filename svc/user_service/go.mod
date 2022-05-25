@@ -1,11 +1,12 @@
-module github.com/rotk2022/delinkcious/svc/user_service
+module user_service
 
-go 1.17
+go 1.18
 
 require (
 	github.com/go-kit/kit v0.12.0
 	github.com/gorilla/mux v1.8.0
-	github.com/rotk2022/delinkcious v0.0.0-20220103094143-701d7f6061e1
+	github.com/rotk2022/delinkcious v0.0.0-20220525025634-eff872b79d2d
+	github.com/rotk2022/delinkcious/svc/user_service v0.0.0-20220525025634-eff872b79d2d
 )
 
 require (
