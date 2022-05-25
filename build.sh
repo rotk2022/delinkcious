@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-IMAGE_PREFIX='g1g1'
+IMAGE_PREFIX='rotk2022'
 STABLE_TAG='0.7'
 
 TAG="${STABLE_TAG}.${CIRCLE_BUILD_NUM}"
