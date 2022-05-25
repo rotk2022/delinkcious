@@ -19,7 +19,6 @@ jobs:
         name: Test everything
         command: 
           go get github.com/onsi/ginkgo/ginkgo
-          go get github.com/onsi/gomega/...
           ginkgo -r -race -failFast -progress
     - setup_remote_docker:
         docker_layer_caching: true
