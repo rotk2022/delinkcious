@@ -10,7 +10,9 @@ jobs:
     - checkout
     - run:
         name: Update certificates
-        command: sudo apt-get --allow-releaseinfo-change update && sudo apt upgrade -y
+        command: 
+          sudo apt-get --allow-releaseinfo-change update && sudo apt upgrade -y
+          sudo apt install ginkgo
     - run:
         name: Get all dependencies
         command: |
@@ -18,7 +20,6 @@ jobs:
     - run:
         name: Test everything
         command: 
-          go get github.com/onsi/ginkgo/ginkgo
           ginkgo -r -race -failFast -progress
     - setup_remote_docker:
         docker_layer_caching: true
